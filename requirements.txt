@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+lxml
+websocket-client
+requests-toolbelt
+youtube-search-python
+youtube-dl
+PyNaCl
+discord
+yt-dlp
+websockets
+akinator[async]
+aiohttp
