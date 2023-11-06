@@ -26,7 +26,7 @@ def replace_image_links(text):
     return text
 
 async def describe(image_link):
-    prompt = replace_image_links(image_link) + "\ngive me 3 bullet points with what can be seen in the picture. (SHORT SENTENCES)"
+    prompt = replace_image_links(image_link) + "\ngive me a few bullet points with what can be seen in the picture. (SHORT SENTENCES)"
     uri = "wss://HuggingFaceM4-idefics-playground.hf.space/queue/join"
     async with websockets.connect(uri) as websocket:
         session_hash = generate_random_string(100)
